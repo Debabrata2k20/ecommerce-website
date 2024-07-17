@@ -9,7 +9,7 @@ from .forms import SignUpForm
 
 
 def category(request, foo):
-    # Replace Hyphens with Spaces
+   
     foo = foo.replace(' ', ' ')
     # Grab the category from the url
     try:
